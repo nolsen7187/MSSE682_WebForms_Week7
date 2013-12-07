@@ -34,6 +34,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALTest", "DALTest\DALTest.csproj", "{D99CA528-9406-4B32-B21B-A87FB6E7FEB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{3A161C36-87A9-4009-B993-EBCE4AFCABA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15B3E0D2-6217-493A-A690-158C497F5318} = {15B3E0D2-6217-493A-A690-158C497F5318}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUSTest", "BUSTest\BUSTest.csproj", "{E7DD22BF-E1A3-4834-9B09-48F0C685C725}"
 EndProject
@@ -44,6 +47,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceLibrary", "WCFServiceLibrary\WCFServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHost", "WCFHost\WCFHost.csproj", "{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient", "WCFClient\WCFClient.csproj", "{AE0D1DD7-4C17-49CC-A359-CD4B4CFA2614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +92,10 @@ Global
 		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0D1DD7-4C17-49CC-A359-CD4B4CFA2614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0D1DD7-4C17-49CC-A359-CD4B4CFA2614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0D1DD7-4C17-49CC-A359-CD4B4CFA2614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0D1DD7-4C17-49CC-A359-CD4B4CFA2614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

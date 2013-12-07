@@ -12,6 +12,33 @@ namespace WCFServiceLibrary
     public interface IServices
     {
         [OperationContract]
-        bool AuthenticateUser(string logon, string password);
-    }    
+        string GetData(int value);
+
+        [OperationContract]
+        CompositeType GetDataUsingDataContract(CompositeType composite);
+
+
+        [OperationContract]
+        string AuthenticateUser(string logon);
+    }
+    [DataContract]
+    public class CompositeType
+    {
+        bool boolValue = true;
+        string stringValue = "Hello ";
+
+        [DataMember]
+        public bool BoolValue
+        {
+            get { return boolValue; }
+            set { boolValue = value; }
+        }
+
+        [DataMember]
+        public string StringValue
+        {
+            get { return stringValue; }
+            set { stringValue = value; }
+        }
+    }
 }

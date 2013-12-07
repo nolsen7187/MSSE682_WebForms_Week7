@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SVC;
 
+
 namespace BUS
 {
     public class BUS_Facade
@@ -85,5 +86,25 @@ namespace BUS
             }            
 
         }
+       /* public string WCFAuthenticateUser()
+        {
+            ServiceReference1.AuthenticationServices client = new AuthenticationServices();
+            /*
+            AuthenticateUser.IServices = new IServices;
+            svcClientSideSocketConnection = new SVC_ClientSideSocketConnection();
+            
+            //foundLogon = client.AuthenticateUser(logon, password, foundLogon, foundPassword);
+            //foundLogon = svcClientSideSocketConnection.Client(logon, password);
+
+            if (foundLogon)
+            {
+                return logon;
+            }
+            else
+            {
+                return "Valid Username Entered.";
+            }
+
+        }*/
     }
 }
