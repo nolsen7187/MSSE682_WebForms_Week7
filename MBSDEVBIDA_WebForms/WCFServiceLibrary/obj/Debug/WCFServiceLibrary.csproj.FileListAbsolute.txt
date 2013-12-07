@@ -1,0 +1,12 @@
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.csprojResolveAssemblyReference.cache
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\WCFServiceLibrary.dll.config
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\WCFServiceLibrary.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\WCFServiceLibrary.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\SVC.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\DAL.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\EntityFramework.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\SVC.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\DAL.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\EntityFramework.xml
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.pdb

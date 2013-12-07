@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVC", "SVC\SVC.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVCTest", "SVCTest\SVCTest.csproj", "{8DFE4CFA-E48F-41CD-94C1-4E1BF5F1EA5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceLibrary", "WCFServiceLibrary\WCFServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHost", "WCFHost\WCFHost.csproj", "{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{8DFE4CFA-E48F-41CD-94C1-4E1BF5F1EA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DFE4CFA-E48F-41CD-94C1-4E1BF5F1EA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DFE4CFA-E48F-41CD-94C1-4E1BF5F1EA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD659BA-17A6-4252-BB56-A42DD28FBE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
