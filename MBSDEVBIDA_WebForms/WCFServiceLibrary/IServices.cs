@@ -19,7 +19,7 @@ namespace WCFServiceLibrary
 
 
         [OperationContract]
-        string AuthenticateUser(string logon);
+        string AuthenticateUser(string logon, string password);
     }
     [DataContract]
     public class CompositeType

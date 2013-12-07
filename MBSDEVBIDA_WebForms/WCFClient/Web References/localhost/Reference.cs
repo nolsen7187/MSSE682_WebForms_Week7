@@ -147,24 +147,26 @@ namespace WCFClient.localhost {
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IServices/AuthenticateUser", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string AuthenticateUser([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string logon) {
+        public string AuthenticateUser([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string logon, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string password) {
             object[] results = this.Invoke("AuthenticateUser", new object[] {
-                        logon});
+                        logon,
+                        password});
             return ((string)(results[0]));
         }
         
         /// <remarks/>
-        public void AuthenticateUserAsync(string logon) {
-            this.AuthenticateUserAsync(logon, null);
+        public void AuthenticateUserAsync(string logon, string password) {
+            this.AuthenticateUserAsync(logon, password, null);
         }
         
         /// <remarks/>
-        public void AuthenticateUserAsync(string logon, object userState) {
+        public void AuthenticateUserAsync(string logon, string password, object userState) {
             if ((this.AuthenticateUserOperationCompleted == null)) {
                 this.AuthenticateUserOperationCompleted = new System.Threading.SendOrPostCallback(this.OnAuthenticateUserOperationCompleted);
             }
             this.InvokeAsync("AuthenticateUser", new object[] {
-                        logon}, this.AuthenticateUserOperationCompleted, userState);
+                        logon,
+                        password}, this.AuthenticateUserOperationCompleted, userState);
         }
         
         private void OnAuthenticateUserOperationCompleted(object arg) {

@@ -3,3 +3,4 @@ C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFClien
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFClient\bin\Debug\WCFClient.pdb
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFClient\obj\Debug\WCFClient.exe
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFClient\obj\Debug\WCFClient.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFClient\obj\Debug\WCFClient.csprojResolveAssemblyReference.cache

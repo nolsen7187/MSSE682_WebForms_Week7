@@ -14,7 +14,7 @@ namespace WCFServiceLibrary
     {
        // private bool logonFound, passwordFound;
 
-        public string AuthenticateUser(string logon)
+        public string AuthenticateUser(string logon, string password)
         {
             /*SVC_AuthenticateUser svcAuthenticateUser = new SVC_AuthenticateUser();
             logonFound = svcAuthenticateUser.AuthenticateLogon(logon);

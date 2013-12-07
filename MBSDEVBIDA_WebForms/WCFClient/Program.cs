@@ -13,7 +13,11 @@ namespace WCFClient
         static void Main(string[] args)
         {
             localhost.AuthenticationServices proxy = new AuthenticationServices();
-            String s = proxy.AuthenticateUser("Nick");
+            proxy.AuthenticateUser("test", "pass");
+            //localhost.AuthenticationServices proxy = new AuthenticationServices();
+            //proxy.AuthenticateUser(
+            //ServiceReference1.IServices proxy = new AuthenticationServices();
+            
 
 
         }

@@ -39,4 +39,3 @@ C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\BUS\bin\
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\BUS\bin\Debug\DAL.pdb
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\BUS\obj\Debug\BUS.dll
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\BUS\obj\Debug\BUS.pdb
-C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
