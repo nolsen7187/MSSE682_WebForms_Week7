@@ -6,3 +6,9 @@ C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\obj\Debug\WCFHost.pdb
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\WCFHost.exe.config
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\WCFHost.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\SVC.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\DAL.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\EntityFramework.dll
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\SVC.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\DAL.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\EntityFramework.xml
