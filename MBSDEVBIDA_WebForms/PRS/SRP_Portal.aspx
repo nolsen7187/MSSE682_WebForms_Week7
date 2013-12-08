@@ -9,7 +9,7 @@
         <h2>Sales Rep Portal Links:</h2>
         <h3>DataGrids:</h3>
         <ul>
-            <li><a id="A2" runat="server" href="~Admin">Admin</a></li>
+            <li><a id="A2" runat="server" href="~/Admin">Admin</a></li>
             <li><a id="A3" runat="server" href="~/DataGrid/Tbl_CustInvoiceJour">CustInvoiceJour</a></li>
             <li><a id="A4" runat="server" href="~/DataGrid/Tbl_CustInvoiceTrans">CustInvoiceTrans</a></li>  
         </ul>
