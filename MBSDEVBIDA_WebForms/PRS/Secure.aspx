@@ -8,8 +8,8 @@
     <form id="form1">
     <div>
     
-        <asp:Label ID="Label1" runat="server" Text="Welcome..."></asp:Label>
-    
+        <asp:Label ID="CustomerLabel" runat="server" Text="Signed in as Customer: "></asp:Label>
+        <asp:Label ID="SalesRepLabel" runat="server" Text="Signed in as SalesRep: "></asp:Label>
     </div>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Log Out" />
     </form>

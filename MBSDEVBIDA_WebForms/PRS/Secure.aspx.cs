@@ -9,9 +9,18 @@ public partial class Secure : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Session["New"] != null)
+        if ((Session["Customer"] != null) || (Session["SalesRep"] != null))
         {
-            Label1.Text += Session["New"].ToString();
+            if (Session["Customer"] != null)
+            {
+                SalesRepLabel.Visible = false;
+                CustomerLabel.Text += Session["Customer"].ToString();
+            }
+            else
+            {
+                CustomerLabel.Visible = false;
+                SalesRepLabel.Text += Session["SalesRep"].ToString();
+            }
         }
         else
         {
@@ -20,7 +29,8 @@ public partial class Secure : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Session["New"] = null;
-        Response.Redirect("Login.aspx");
+        Session["Customer"] = null;
+        Session["SalesRep"] = null;
+        Response.Redirect("Default.aspx");
     }
 }

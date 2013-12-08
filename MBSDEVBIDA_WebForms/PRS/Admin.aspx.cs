@@ -9,7 +9,10 @@ public partial class Admin : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if ((Session["SalesRep"] == null) && ((Session["Customer"] != null) || (Session["Customer"] == null)))
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
     protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
     {

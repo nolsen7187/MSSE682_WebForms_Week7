@@ -60,6 +60,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="SessKeys.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SVC\SVC.csproj">

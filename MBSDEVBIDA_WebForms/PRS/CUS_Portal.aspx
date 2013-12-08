@@ -4,14 +4,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server" align="left">
     <nav>
-        <ul id="menu">Customer Portal Links:
-            <li><a id="registerLink" runat="server" href="~/DataGrid/Tbl_CustInvoiceJour">CustInvoiceJour</a></li>
-            <li><a id="loginLink" runat="server" href="~/DataGrid/Tbl_CustInvoiceTrans">CustInvoiceTrans</a></li>  
-            <li><a id="A1" runat="server" href="~/Reports/Rpt_Customer">Customer Report</a></li>
-            <li><a id="A2" runat="server" href="~/Secure">Logout</a></li>                 
+        <h2>Customer Portal Links:</h2>
+        <h3>DataGrids:</h3>
+        <ul>
+            <li><a id="A3" runat="server" href="~/DataGrid/Tbl_CustInvoiceJour">CustInvoiceJour</a></li>
+            <li><a id="A4" runat="server" href="~/DataGrid/Tbl_CustInvoiceTrans">CustInvoiceTrans</a></li>  
         </ul>
-    </nav>  
+        <h3>Reports:</h3>
+        <ul>
+            <li><a id="A5" runat="server" href="~/Reports/Rpt_Customer">Customer Report</a></li>
+        </ul>
+    </nav>
 </asp:Content>
 

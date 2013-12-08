@@ -65,6 +65,23 @@ public partial class SiteMaster : MasterPage
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        SalesRepPortalLink.Visible = false;
+        CustomerPortalLink.Visible = false;
+        LogoutLink.Visible = false;
 
+        if ((Session["Customer"] != null) || (Session["SalesRep"] != null))
+        {
+            registerLink.Visible = false;
+            loginLink.Visible = false;
+            LogoutLink.Visible = true;
+            if (Session["Customer"] != null)
+            {
+                CustomerPortalLink.Visible = true;
+            }
+            else
+            {
+                SalesRepPortalLink.Visible = true;
+            }
+        }
     }
 }

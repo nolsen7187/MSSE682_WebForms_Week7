@@ -9,6 +9,9 @@ public partial class Reports_Rpt_SalesRep : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if ((Session["SalesRep"] == null) && ((Session["Customer"] != null) || (Session["Customer"] == null)))
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }
