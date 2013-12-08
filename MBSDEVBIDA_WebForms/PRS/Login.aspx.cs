@@ -24,6 +24,7 @@ public partial class Login : System.Web.UI.Page
         BUS_Facade newFacade = new BUS_Facade(TextBoxUserName.Text, TextBoxPassword.Text);
         AuthenticatedUser = newFacade.ProcessAuthenticationRequest();
         //AuthenticatedUser = newFacade.TestAuthenticationServer();
+        //AuthenticatedUser = newFacade.WCFAuthenticateUser();
         if (TextBoxUserName.Text == AuthenticatedUser)
         {
             if (newFacade.ProcessCheckIfUserIsSalesRep())

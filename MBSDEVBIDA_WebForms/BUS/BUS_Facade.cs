@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using SVC;
 
 
+using System.ServiceModel;
+using WCFClient;
+
 namespace BUS
 {
     public class BUS_Facade
@@ -86,17 +89,21 @@ namespace BUS
             }            
 
         }
-       /* public string WCFAuthenticateUser()
+        public string WCFAuthenticateUser()
         {
-            ServiceReference1.AuthenticationServices client = new AuthenticationServices();
-            /*
-            AuthenticateUser.IServices = new IServices;
-            svcClientSideSocketConnection = new SVC_ClientSideSocketConnection();
+            return "Turd";
+        }
+        public string WCFAuthenticateUser1()
+        {
+            WCFAuthenticationClient client = new WCFAuthenticationClient();
+            //ServiceReference1.ServicesClient client = new ServicesClient();
+            string wcfOutput = client.WCFAuthUser(logon, password);// "";// client.AuthenticateUser(logon, password);
             
+            //AuthenticateUser.IServices = new IServices                        
             //foundLogon = client.AuthenticateUser(logon, password, foundLogon, foundPassword);
             //foundLogon = svcClientSideSocketConnection.Client(logon, password);
 
-            if (foundLogon)
+            if (wcfOutput == "true")
             {
                 return logon;
             }
@@ -105,6 +112,6 @@ namespace BUS
                 return "Valid Username Entered.";
             }
 
-        }*/
+        }
     }
 }
