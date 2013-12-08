@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SVC;
 
-
+using System.Diagnostics;
 using System.ServiceModel;
 using WCFClient;
 
@@ -91,7 +91,12 @@ namespace BUS
         }
         public string WCFAuthenticateUser()
         {
-            return "Turd";
+            localhost.AuthenticationServices client = new localhost.AuthenticationServices();
+            string wcfOutput = client.AuthenticateUser(logon, password);
+            //Process.Start("@C:\\Users\\NOLSEN\\Source\\Repos\\MSSE682_WebForms_Week7\\MBSDEVBIDA_WebForms\\WCFHost\\bin\\Debug\\WCFHost.exe");
+            //WCFClient.ServiceReference1.ServicesClient client = new WCFClient.ServiceReference1.ServicesClient();
+            //WCFClient.WCFAuthenticationClient client = new WCFAuthenticationClient();
+            return wcfOutput;
         }
         public string WCFAuthenticateUser1()
         {

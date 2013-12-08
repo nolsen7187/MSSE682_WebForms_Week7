@@ -22,5 +22,15 @@ namespace BUS.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:8090/WCFServiceLibrary/AuthenticationServices/")]
+        public string BUS_localhost_AuthenticationServices {
+            get {
+                return ((string)(this["BUS_localhost_AuthenticationServices"]));
+            }
+        }
     }
 }

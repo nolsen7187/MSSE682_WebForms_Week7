@@ -13,7 +13,8 @@ namespace WCFClient
     {
         static void Main(string[] args)
         {
-            /*ServiceReference1.ServicesClient client = new ServicesClient();
+            
+            ServiceReference1.ServicesClient client = new ServicesClient();
 
             //localhost.AuthenticationServices proxy = new AuthenticationServices();
             string a = client.AuthenticateUser("bob", "bob");
@@ -22,7 +23,7 @@ namespace WCFClient
             //proxy.AuthenticateUser(
             //ServiceReference1.IServices proxy = new AuthenticationServices();
             Console.Out.WriteLine("right: " + a + " wrong: " + s);
-            Console.ReadLine();*/
+            Console.ReadLine();
         }
     }
     public class WCFAuthenticationClient
