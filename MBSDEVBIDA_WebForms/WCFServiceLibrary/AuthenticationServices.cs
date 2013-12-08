@@ -13,7 +13,7 @@ namespace WCFServiceLibrary
     public class AuthenticationServices : IServices
     {
         private bool logonFound, passwordFound;
-
+        private string verifiedLogon;
         public string AuthenticateUser(string logon, string password)
         {
             SVC_AuthenticateUser svcAuthenticateUser = new SVC_AuthenticateUser();
@@ -22,11 +22,12 @@ namespace WCFServiceLibrary
             
             if ((logonFound && passwordFound) == true)
             {
-                return "true";
+                verifiedLogon = logon;
+                return verifiedLogon;
             }
             else
             {
-                return "false";
+                return "User not verified";
             }
         }
         public string GetData(int value)
