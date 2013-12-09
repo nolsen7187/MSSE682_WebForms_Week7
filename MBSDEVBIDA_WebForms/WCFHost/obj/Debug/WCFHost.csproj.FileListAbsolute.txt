@@ -25,3 +25,4 @@ C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFH
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFHost\obj\Debug\WCFHost.csprojResolveAssemblyReference.cache
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFHost\obj\Debug\WCFHost.exe
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFHost\obj\Debug\WCFHost.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFHost\bin\Debug\WCFServiceLibrary.pdb

@@ -21,3 +21,4 @@ C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFS
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.csprojResolveAssemblyReference.cache
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.dll
 C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7_Old\MBSDEVBIDA_WebForms\WCFServiceLibrary\obj\Debug\WCFServiceLibrary.pdb
+C:\Users\NOLSEN\Source\Repos\MSSE682_WebForms_Week7\MBSDEVBIDA_WebForms\WCFServiceLibrary\bin\Debug\WCFServiceLibrary.pdb
